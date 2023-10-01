@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -8,6 +13,13 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="source/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
@@ -23,12 +35,66 @@
       href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
   </head>
   <body>
-    <h1>Aakriti Verma</h1>
-    <i class="fa-brands fa-square-instagram"></i>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="Index.html"
+            ><strong>Aakriti Verma</strong></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="Index.html"
+                ><strong>Home</strong></a
+              >
+              <a class="nav-link" href="#">About Me</a>
+              <a class="nav-link" href="#">My Work</a>
+              <a class="nav-link" href="#">Contact Me</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <br />
+      <div class="content">
+        <div class="row">
+          <div class="col-6"></div>
+          <div class="col-6">
+            <h1>Aakriti Verma</h1>
+            <h2>Front-end Developer based in India.</h2>
+            <br />
+            <h3>
+              “Design is not just what it looks like and feels like.Design is
+              how it works.”
+              <br />
+              <span>-Steve Jobs</span>
+              <br />
+              <br />
+              <br />
+              <br />
+
+              <a id="learn-more" href="#">Learn More</a>
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="icon">
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-square-github"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-solid fa-square-envelope"></i>
+      </div>
+    </div>
   </body>
 </html>
