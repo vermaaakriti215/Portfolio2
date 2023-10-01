@@ -10,37 +10,58 @@ h1 {
 }
 h2 {
   color: #858585;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 600;
   text-align: center;
 }
 h3 {
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 400;
   color: 565656;
   text-align: center;
 }
 .content {
-  margin-left: 90px;
   background-image: url("https://images.pexels.com/photos/6913376/pexels-photo-6913376.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-  width: 1120px;
+  background-size: 1700px;
 }
 .col-6 {
   margin-top: 80px;
   margin-bottom: 180px;
 }
+nav {
+  margin-top: 10px;
+  background-color: #dadbe0;
+}
 #learn-more {
+  font-size: 20px;
+  line-height: 25px;
   color: black;
   padding: 10px;
-  margin: 0 auto;
   border-radius: 30px;
   background-color: #adbed2;
   border: 2px solid #adbed2;
   text-decoration: none;
 }
+.icon {
+  display: flex;
+  justify-content: space-evenly;
+}
 i {
-  margin-top: 23px;
-  margin-left: 235px;
+  margin-top: 38px;
   font-size: 30px;
-  margin-bottom: 23px;
+  margin-bottom: 18px;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  #learn-more {
+    font-size: 15px;
+  }
 }
