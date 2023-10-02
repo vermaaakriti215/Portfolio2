@@ -28,6 +28,7 @@ p {
 .content {
   background-image: url("https://images.pexels.com/photos/6913376/pexels-photo-6913376.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-size: 1700px;
+  padding: 20px;
 }
 #homepage-column {
   margin-top: 80px;
@@ -54,8 +55,8 @@ nav {
 }
 i {
   margin-top: 38px;
-  font-size: 35px;
-  margin-bottom: 18px;
+  font-size: 40px;
+  margin-bottom: 38px;
 }
 @media (max-width: 900px) {
   h1 {
@@ -74,9 +75,39 @@ i {
 #my-image {
   display: block;
   margin: 50px auto;
-  margin-top: 70px;
 }
 #aboutme-page {
   margin-top: 50px;
   margin-bottom: 50px;
+}
+img {
+  display: block;
+  margin: 50px auto;
+}
+#work {
+  display: block;
+  margin: 0 auto;
+  background-color: #b8bdc4;
+  width: 470px;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+#app-link {
+  text-decoration: none;
+  line-height: 25px;
+  color: black;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: #91a5c3;
+  border: 2px solid #91a5c3;
+  display: block;
+  text-align: center;
+  width: 200px;
+  margin-left: 110px;
+  margin-bottom: 30px;
+}
+#work-page {
+  background-image: url("https://images.pexels.com/photos/6913376/pexels-photo-6913376.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: 2400px;
+  padding: 20px;
 }
