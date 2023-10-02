@@ -57,6 +57,7 @@ i {
   margin-top: 38px;
   font-size: 40px;
   margin-bottom: 38px;
+  color: #212529;
 }
 @media (max-width: 900px) {
   h1 {
@@ -110,4 +111,7 @@ img {
   background-image: url("https://images.pexels.com/photos/6913376/pexels-photo-6913376.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-size: 2400px;
   padding: 20px;
+}
+li {
+  list-style: none;
 }
