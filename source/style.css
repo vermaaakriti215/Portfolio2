@@ -20,15 +20,21 @@ h3 {
   color: 565656;
   text-align: center;
 }
+p {
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+}
 .content {
   background-image: url("https://images.pexels.com/photos/6913376/pexels-photo-6913376.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-size: 1700px;
 }
-.col-6 {
+#homepage-column {
   margin-top: 80px;
   margin-bottom: 180px;
 }
 nav {
+  font-size: 19px;
   margin-top: 10px;
   background-color: #dadbe0;
 }
@@ -48,7 +54,7 @@ nav {
 }
 i {
   margin-top: 38px;
-  font-size: 30px;
+  font-size: 35px;
   margin-bottom: 18px;
 }
 @media (max-width: 900px) {
@@ -64,4 +70,13 @@ i {
   #learn-more {
     font-size: 15px;
   }
+}
+#my-image {
+  display: block;
+  margin: 50px auto;
+  margin-top: 70px;
+}
+#aboutme-page {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
