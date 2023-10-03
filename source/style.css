@@ -72,6 +72,9 @@ i {
   #learn-more {
     font-size: 15px;
   }
+  img {
+    width: 300px;
+  }
 }
 #my-image {
   display: block;
