@@ -103,9 +103,6 @@ img {
   border: 2px solid #91a5c3;
   display: block;
   text-align: center;
-  width: 200px;
-  margin-left: 110px;
-  margin-bottom: 30px;
 }
 #work-page {
   background-image: url("https://images.pexels.com/photos/6913376/pexels-photo-6913376.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
@@ -116,6 +113,8 @@ li {
   list-style: none;
 }
 .me {
+  padding: 20px;
+  margin: 30px auto;
   text-align: center;
   font-weight: 600;
   opacity: 0.6;
